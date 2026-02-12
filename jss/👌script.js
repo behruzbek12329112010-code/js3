@@ -1,6 +1,7 @@
 var ism = prompt("iltimos ismingizni kiriting").trim();
 console.log("salom" + " " + `${ism}` + " ");
 
+
 if(ism==""){
     alert("ismingizni kiriting !!!")
     var ism = prompt("Ismingizni kiriting").trim();
@@ -11,6 +12,7 @@ if(ism==""){
 
     var ism = prompt("Ismingizni kiriting").trim();
 }
+
 
 var nimaga = prompt("nima uchun institutga kirishni xohlaysiz").trim();
 
@@ -23,4 +25,5 @@ if(nimaga.length <=15) {
 }else{
     alert("raxmat!")
 }
+
 console.log(nimaga.replaceAll("universitet", "alicode"));
